@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .bungee-regular {
+            font-family: "Bungee", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            box-shadow: 1px 10px 23px 0px rgba(0, 0, 0, 0.75);
+        }
+
+        .card h1 {
+            width: 100%;
+            padding-left: 10px;
+            text-align: left;
+            font-size: 48px;
+            font-weight: 600;
+        }
+
+        .card h2 {
+            width: 100%;
+            padding-left: 10px;
+            text-align: left;
+            font-size: 36px;
+            font-weight: 400;
+        }
+
+        .card img {
+            width: 70%;
+            border-radius: 50%;
+        }
+
+        .card .jhon {
+            color: rgb(144, 144, 19);
+            font-size: 32px;
+            margin: 10px 0;
+        }
+
+        .card .para {
+            font-size: 24px;
+            color: rgb(98, 95, 95);
+            margin: 5px 0;
+        }
+
+        .card .year {
+            font-size: 24px;
+            font-weight: 400;
+            margin: 5px 0;
+        }
+
+        .card .rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .card .rating img {
+            width: 25%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Title</h1>
+            <h2 class="bungee-regular">PANDA CARD</h2>
+            <img src="https://imgs.search.brave.com/HwsVqJLZCwT7KgQwJa9567yfxZch_r9gTcck_gnp-p4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9naWFudC1wYW5k/YS1waG90b183NzM5/MjItNTgwNzIuanBn/P3NpemU9NjI2JmV4/dD1qcGc"
+                alt="pandaImg">
+            <p class="jhon">Jhon Doe</p>
+            <p class="para">computer science 1</p>
+            <p class="para">computer science 2</p>
+            <p class="year bungee-regular">Years : 3</p>
+            <div class="rating"><img
+                    src="https://imgs.search.brave.com/gsMkvEX2AVD9QOG5tPwK_eElpoYcIV7A48yDv0M3Ua8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA3LzY3LzgzLzI0/LzM2MF9GXzc2Nzgz/MjQyM19EczV1R0lR/QmFaUzVYNXdNY3lJ/YWRaWERueXd1UEFx/NS5qcGc"
+                    alt="rating"></div>
+        </div>
+    </div>
+</body>
+
+</html>
